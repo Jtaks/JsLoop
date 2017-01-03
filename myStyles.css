@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  background: #51cfff;
+  color: rgba(0, 0, 0, 0.87);
+  height: 100%;
+  width: 100%;
+}
+
+#dev {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
